@@ -7,4 +7,4 @@ Character:
 An american spy/soldier, who has infiltrated the bunker.
 
 Goal:
-To direct the launching nukes to either the US (Neutral Ending), the ocean (Good Ending), Moscow (Bad Ending) or to the UK (True Ending).
+To direct the launching nukes to either the US (Bad Ending), the ocean (Good Ending), Moscow (Bad Ending) or to the UK (True Ending).
