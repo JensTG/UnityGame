@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638350006865536237
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -126,8 +126,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 81
-      y: 49
+      x: 4
+      y: 160
       width: 31
       height: 13
     spriteID: 4d564ac4cc4a5e3449abdfcb086a9317
@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 81, y: 49}
+    uvTransform: {x: 4, y: 160}
   - name: Scientist - Base_Frame_1
     originalName: 
     pivot: {x: 0.53333336, y: -0.71428573}
@@ -146,8 +146,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 49
+      x: 4
+      y: 138
       width: 30
       height: 14
     spriteID: a62ac700eb6db6145b0e8211a1627ebe
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 49}
+    uvTransform: {x: 4, y: 138}
   - name: Scientist - Base_Frame_2
     originalName: 
     pivot: {x: 0.516129, y: -0.7692308}
@@ -167,7 +167,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 71
+      y: 181
       width: 31
       height: 13
     spriteID: 4238b92d31b798247bf935e4d27ab808
@@ -178,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 71}
+    uvTransform: {x: 4, y: 181}
   - name: Scientist - Base_Frame_3
     originalName: 
     pivot: {x: 0.5, y: -0.71428573}
@@ -186,7 +186,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 82
+      x: 43
       y: 4
       width: 32
       height: 14
@@ -198,7 +198,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 82, y: 4}
+    uvTransform: {x: 43, y: 4}
   - name: Scientist - Base_Frame_4
     originalName: 
     pivot: {x: 0.516129, y: -0.7692308}
@@ -206,8 +206,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 71
+      x: 4
+      y: 202
       width: 31
       height: 13
     spriteID: 232a9e10f8ff06e438a1269d8b98b8a1
@@ -218,7 +218,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 71}
+    uvTransform: {x: 4, y: 202}
   - name: Scientist - Base_Frame_5
     originalName: 
     pivot: {x: 0.516129, y: -0.7692308}
@@ -226,8 +226,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 82
-      y: 71
+      x: 4
+      y: 223
       width: 31
       height: 13
     spriteID: ad4ad7cd3749e9b499c9fb236c9cfe2b
@@ -238,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 82, y: 71}
+    uvTransform: {x: 4, y: 223}
   - name: Scientist - Base_Frame_6
     originalName: 
     pivot: {x: 0.516129, y: -0.71428573}
@@ -247,7 +247,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 27
+      y: 50
       width: 31
       height: 14
     spriteID: 94b213580c4fcff4ca85cfe3a29cf873
@@ -258,7 +258,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 27}
+    uvTransform: {x: 4, y: 50}
   - name: Scientist - Base_Frame_7
     originalName: 
     pivot: {x: 0.516129, y: -0.6666667}
@@ -286,8 +286,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 27
+      x: 4
+      y: 72
       width: 31
       height: 14
     spriteID: 7d9032e4b2f827b4bb7a4a27b41350ea
@@ -298,7 +298,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 27}
+    uvTransform: {x: 4, y: 72}
   - name: Scientist - Base_Frame_9
     originalName: 
     pivot: {x: 0.516129, y: -0.7692308}
@@ -306,8 +306,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 92
+      x: 43
+      y: 26
       width: 31
       height: 13
     spriteID: 5a01bef8577b8c948945907a6519cf1e
@@ -318,7 +318,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 92}
+    uvTransform: {x: 43, y: 26}
   - name: Scientist - Base_Frame_10
     originalName: 
     pivot: {x: 0.48387095, y: -0.71428573}
@@ -326,8 +326,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 82
-      y: 27
+      x: 4
+      y: 94
       width: 31
       height: 14
     spriteID: 5164b9134ede14a4ba63a2a57e94fac4
@@ -338,7 +338,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 82, y: 27}
+    uvTransform: {x: 4, y: 94}
   - name: Scientist - Base_Frame_11
     originalName: 
     pivot: {x: 0.48387095, y: -0.6666667}
@@ -346,8 +346,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 43
-      y: 4
+      x: 4
+      y: 27
       width: 31
       height: 15
     spriteID: 5d07e9d53eaddfd439da5bfe9416fcaa
@@ -358,7 +358,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 4}
+    uvTransform: {x: 4, y: 27}
   - name: Scientist - Base_Frame_12
     originalName: 
     pivot: {x: 0.48387095, y: -0.71428573}
@@ -367,7 +367,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 49
+      y: 116
       width: 31
       height: 14
     spriteID: e3fc3361422d77948834d7a8206794a1
@@ -378,7 +378,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 49}
+    uvTransform: {x: 4, y: 116}
   - name: Scientist - Base_Frame_13
     originalName: 
     pivot: {x: 0.516129, y: -0.7692308}
@@ -387,7 +387,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 43
-      y: 92
+      y: 47
       width: 31
       height: 13
     spriteID: b523374d8919202479434792b14066f8
@@ -398,7 +398,47 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 43, y: 92}
+    uvTransform: {x: 43, y: 47}
+  - name: Scientist - Base_Frame_14
+    originalName: 
+    pivot: {x: 0.516129, y: -0.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 68
+      width: 31
+      height: 13
+    spriteID: 72b98a073cb3c16428b6efc25c133add
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 68}
+  - name: Scientist - Base_Frame_15
+    originalName: 
+    pivot: {x: 0.516129, y: -0.7692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 89
+      width: 31
+      height: 13
+    spriteID: db0d573a18a7ecd47b6e9bf606098cfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 89}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -520,9 +560,61 @@ ScriptedImporter:
         width: 31
         height: 13
       spriteId: b523374d8919202479434792b14066f8
+    - name: Scientist - Base_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 10
+        width: 31
+        height: 13
+      spriteId: 72b98a073cb3c16428b6efc25c133add
+    - name: Scientist - Base_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 10
+        width: 31
+        height: 13
+      spriteId: db0d573a18a7ecd47b6e9bf606098cfd
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
