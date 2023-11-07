@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Sprites\enemies\Scientist\Scientist.cs" />
     <Compile Include="Assets\Sprites\player\PlayerMovement.cs" />
+    <Compile Include="Assets\Own code\Funcs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
