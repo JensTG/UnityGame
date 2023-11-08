@@ -248,8 +248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a2b3ff116b76e943a7953408d279303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9.9
+  baseSpeed: 1
+  acceleration: 0.5
   sciBody: {fileID: 1123906395}
+  animator: {fileID: 1123906392}
 --- !u!212 &1123906391
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -332,7 +334,7 @@ Animation:
   m_GameObject: {fileID: 1123906389}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7821112820555202103, guid: 0fe8a6107eea35f4f9ea5802ee5451f3, type: 3}
+  m_Animation: {fileID: 0}
   m_Animations:
   - {fileID: 7965168534032615749, guid: 0fe8a6107eea35f4f9ea5802ee5451f3, type: 3}
   - {fileID: 7821112820555202103, guid: 0fe8a6107eea35f4f9ea5802ee5451f3, type: 3}

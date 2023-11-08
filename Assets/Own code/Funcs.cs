@@ -12,24 +12,9 @@ namespace Funcs
 
             if(vec.x == 0 &&  vec.y == 0) { return -1; }
 
-            if(vec.x > 0)
-            {
-                if(vec.y > 0)
-                {
-                    deg = Mathf.Asin(vec.x);
-                    return deg;
-                }
-                deg = 180 - Mathf.Asin(vec.x);
-                return deg;
-            }
-            if(vec.y < 0)
-            {
-                deg = 180 + Mathf.Asin(-vec.x);
-                return deg;
-            }
-            deg = 360 - Mathf.Asin(-vec.x);
-            return deg;
+            deg = Mathf.Rad2Deg * Mathf.Atan2(vec.y, vec.x) - 90;
 
+            return deg;
         }
     }
 }
