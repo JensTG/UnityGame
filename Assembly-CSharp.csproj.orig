@@ -40,9 +40,17 @@
     <Analyzer Include="C:\Program Files\Unity 2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\Sprites\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Sprites\enemies\Scientist.cs" />
      <Compile Include="Assets\Own code\Funcs.cs" />
+=======
+    <Compile Include="Assets\Sprites\enemies\Scientist.cs" />
+    <Compile Include="Assets\Sprites\player\PlayerMovement.cs" />
+    <Compile Include="Assets\Own code\Funcs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> 06d7b61aa86f7b22e959db7e95af407d418696ca
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
