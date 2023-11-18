@@ -5,12 +5,15 @@ using Funcs;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed;
-    public float deceleration;
+    public float maxVel;
+    public float inputWeight;
+    public float friction;
     public Rigidbody2D rb;
 
-    Vector2 movement;
-    Vector2 lastMove;
+    Vector2 accel;
+    Vector2 vel;
+
+    Vector2 moveInput;
 
     // Start is called before the first frame update
     void Start()
@@ -22,24 +25,16 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Input:
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        moveInput.x = Input.GetAxisRaw("Horizontal");
+        moveInput.y = Input.GetAxisRaw("Vertical");
     }
 
     private void FixedUpdate()
     {
         // Movement:
-        if (movement.magnitude >= 1)
-        {
-            Vector2 preMove = rb.position;
-            rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
-            lastMove = rb.position - preMove;
-        }
-        else
-        {
-            Vector2 decelMove = lastMove;
-            rb.MovePosition(rb.position + decelMove);
-            lastMove = decelMove;
-        }
+        accel = MoveFuncs.CalculateAccel(friction, moveInput, accel);
+        vel += accel;
+
+        rb.MovePosition(vel * Time.fixedDeltaTime + rb.position);
     }
 }
