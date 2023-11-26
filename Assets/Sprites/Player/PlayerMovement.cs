@@ -5,15 +5,14 @@ using Funcs;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float maxVel;
-    public float inputWeight;
+    public float baseSpeed;
     public float friction;
     public Rigidbody2D rb;
 
-    Vector2 accel;
     Vector2 vel;
-
     Vector2 moveInput;
+    bool running;
+    float speed;
 
     // Start is called before the first frame update
     void Start()
@@ -27,14 +26,16 @@ public class PlayerMovement : MonoBehaviour
         // Input:
         moveInput.x = Input.GetAxisRaw("Horizontal");
         moveInput.y = Input.GetAxisRaw("Vertical");
+        running = Input.GetKey(KeyCode.LeftShift);
     }
 
     private void FixedUpdate()
     {
         // Movement:
-        accel = MoveFuncs.CalculateAccel(friction, moveInput, accel);
-        vel += accel;
+        if (moveInput.magnitude != 0) vel = moveInput.normalized;
+        if (running) speed = baseSpeed * 2; else speed = baseSpeed;
 
-        rb.MovePosition(vel * Time.fixedDeltaTime + rb.position);
+        rb.MovePosition(vel * speed * Time.fixedDeltaTime + rb.position);
+        vel /= friction;
     }
 }

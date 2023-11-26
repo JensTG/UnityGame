@@ -167,9 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e6f1f733fee3e543ac783458ee15ec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxVel: 20
-  inputWeight: 0.02
-  friction: 2
+  baseSpeed: 5
+  friction: 1.2
   rb: {fileID: 298060322}
 --- !u!111 &298060325
 Animation:

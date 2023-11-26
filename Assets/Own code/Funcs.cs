@@ -20,13 +20,5 @@ namespace Funcs
 
     public static class MoveFuncs
     {
-        public static Vector2 CalculateAccel(float fric, Vector2 input, Vector2 accel)
-        {
-            if (accel.magnitude > 0.01f && input == Vector2.zero) {accel = accel / fric; return accel; }
-            else if (input == Vector2.zero) {accel = new Vector2(0, 0); return accel; }
-
-            accel = input;
-            return accel;
-        }
     }
 }
